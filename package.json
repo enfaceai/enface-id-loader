@@ -1,0 +1,46 @@
+{
+  "name": "enface-active-liveness",
+  "version": "1.0.0",
+  "description": "Enface active liveness (browser widget)",
+  "module": "src/index.js",
+  "author": "Enface LTD",
+  "scripts": {
+    "build": "webpack-cli --mode production",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enfaceai/enface-active-liveness.git"
+  },
+  "keywords": [
+    "enface",
+    "biometric",
+    "authorization",
+    "sdk"
+  ],
+  "bugs": {
+    "url": "https://github.com/enfaceai/enface-active-liveness/issues"
+  },
+  "homepage": "https://enface.ai",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.15.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^6.2.0",
+    "eslint": "^7.31.0",
+    "eslint-plugin-flowtype": "^5.8.0",
+    "eslint-plugin-import": "^2.23.4",
+    "file-loader": "^6.2.0",
+    "postcss-loader": "^6.1.1",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "core-js": "^3.15.2"
+  }
+}
